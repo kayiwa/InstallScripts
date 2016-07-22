@@ -3,9 +3,9 @@
 # Default values for main configuration settings
 
 # Name of the Hydra head.
-HYDRA_HEAD="data-repo"
+HYDRA_HEAD="iawa"
 # The git repository to pull changes from during setup.
-HYDRA_HEAD_GIT_REPO_URL="https://github.com/VTUL/data-repo.git"
+HYDRA_HEAD_GIT_REPO_URL="https://github.com/VTUL/iawa.git"
 # SSH deployment key, if any, needed for cloning above repository
 HYDRA_HEAD_GIT_REPO_DEPLOY_KEY=""
 # The branch of the repository to pull.
@@ -65,7 +65,7 @@ PHANTOMJS_VERSION="2.1.1"
 PHANTOMJS_DISTRO="linux"
 PHANTOMJS_ARCH="x86_64"
 # The version of FITS to install.
-FITS_PACKAGE="fits-0.6.2"
+FITS_PACKAGE="fits-0.8.5"
 # The version of Ruby to install.
 RUBY_PACKAGE="ruby2.3"
 RUN_AS_SOLR_USER="sudo -H -u $SOLR_USER"
